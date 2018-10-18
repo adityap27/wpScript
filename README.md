@@ -1,5 +1,4 @@
-#wpScript
-Javascript to save unknown/unsaved numbers from a Whatsapp group.
+# Javascript to save unknown/unsaved numbers from a Whatsapp group.
 
 Steps
 1. Open Whatsapp Web in browser.
