@@ -1,5 +1,5 @@
 var name="zz";//PUT "zz" or anything you want
-var obj = document.getElementsByClassName("RLfQR")[0].getElementsByClassName("_2wP_Y");
+var obj = document.getElementsByClassName("_3xdMj")[0].getElementsByClassName("_3NWy8");
 var CSV='';
 var data = [];
 var src;
@@ -9,7 +9,7 @@ for (var i = 0; i < obj.length; i++) {
 	
 
 
-	var num = obj[i].getElementsByClassName("_1wjpf")[0].title; //Mobile Number
+	var num = obj[i].getElementsByClassName("_19RFN")[0].title; //Mobile Number
 	if(num.includes("+"))
 	{
 
@@ -25,7 +25,7 @@ CSV+='END:VCARD\r\n';
 
 var fileName = "WAGroup_";
 
-fileName += document.getElementsByClassName("pluggable-input-body copyable-text selectable-text")[0].innerText;
+fileName += document.getElementsByClassName("_3u328 copyable-text selectable-text")[0].innerText;
 
 var uri = 'data:text/vcf;charset=utf-8,' + escape(CSV);
 
@@ -46,4 +46,3 @@ document.getElementsByTagName("BODY")[0].style.width="100%";
 document.getElementsByTagName("BODY")[0].style.height="100%";
 document.getElementById("app").style.width="100%";
 document.getElementById("app").style.height="100%";
-
